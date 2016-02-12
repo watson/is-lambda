@@ -1,6 +1,6 @@
 {
   "name": "is-lambda",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Detect if your code is running on an AWS Lambda server",
   "main": "index.js",
   "dependencies": {},
@@ -27,5 +27,9 @@
   "bugs": {
     "url": "https://github.com/watson/is-lambda/issues"
   },
-  "homepage": "https://github.com/watson/is-lambda"
+  "homepage": "https://github.com/watson/is-lambda",
+  "coordinates": [
+    55.6665749,
+    12.5801368
+  ]
 }
