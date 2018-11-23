@@ -18,7 +18,15 @@ npm install is-lambda
 var isLambda = require('is-lambda')
 
 if (isLambda) {
+  console.log('The code is running on a AWS Lambda or a Google Cloud Function')
+}
+
+if (isLambda === 'Amazon') {
   console.log('The code is running on a AWS Lambda')
+}
+
+if (isLambda === 'Google') {
+  console.log('The code is running on a Google Cloud Function')
 }
 ```
 
